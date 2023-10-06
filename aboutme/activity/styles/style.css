@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+main p{
+    text-align: center;
+}
+main {
+    text-align: center;
+
+}
+h2{
+    color: white;
+}
+
+img {
+width: 10%;
+display: block;
+margin: 0 auto;
+text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+* {
+    border: 1px solid black; /* Adicione a cor, largura e estilo da borda desejados */
+}
