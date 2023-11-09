@@ -46,7 +46,7 @@ main section img {
 
 #background {
     height: 725px;
-    background-color: pink;
+    background-color: beige;
 }
 
 #hero-box {
@@ -102,7 +102,7 @@ header {
 
 .book, .join {
     text-decoration: none;
-    background-color: pink;
+    background-color: beige;
     color: black;
     font-size: 18px;
     padding: 15px 30px;
@@ -111,7 +111,7 @@ header {
 }
 
 .book:hover, .join:hover {
-    background-color: pink;
+    background-color: beige;
 }
 
 .msg {
@@ -136,7 +136,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: pink;
+    color: beige;
 }
 
 footer a:hover {
@@ -156,7 +156,7 @@ footer .social img {
 }
 
 .home-title {
-    color: pink;
+    color: beige;
     font-family: "Caveat";
     font-size: 2em;
     margin-top: 10px;
@@ -211,6 +211,155 @@ margin: 200px 0;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+/* rivers page */
+ 
+.river1, .river2, .river3 {
+    width: 100%;
+}
+
+.nav-rivers {
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    height: 94%;
+}
+.nav-rivers a{
+    color: black;
+}
+
+.logo-river {
+    width: 100px;
+    background-color: beige;
+    padding-right: 50px;
+
+   
+}
+#logo_link-river {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    
+
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 100px);
+    text-align: center;
+}
+.river1-text p, .river2-text p, .river3-text p{
+    font-size: 15px;
+    font-family: "Roboto";
+    
+}
+.river1-text h2, .river2-text h2, .river3-text h2{
+    font-size: 20px;
+    font-family: "Caveat";
+}
+
+
+
+#background0, #background1, #background2, #background3 {
+    height: 100%;
+    background-color: beige;
+}
+
+#background0 {
+    background-color: white;
+    grid-column: 3/7;
+    grid-row: 2/1;
+    
+}
+.rivers-title {
+    grid-column: 1/11;
+    grid-row: 1/2;
+    padding-top: 50px;
+    font-family: "Caveat";
+    width: 500px;
+    justify-self: center;
+    
+    
+}
+
+
+#background1{
+    grid-column: 5/8;
+    grid-row: 4/7;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+    
+
+}
+.river1{
+grid-column: 2/6;
+grid-row: 3/6;
+padding-top: 40px;
+width: 110%;
+
+
+}
+.river1-text {
+    grid-column: 5/8;
+    grid-row: 4/6;
+    z-index: 1;
+    padding-top: 50px;
+    
+
+}
+
+#background2{
+    grid-column: 3/6;
+    grid-row: 9/12;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+
+}
+.river2{
+grid-column: 5/9;
+grid-row: 8/13;
+width: 90%;
+padding-top: 40px;
+
+}
+.river2-text{
+    grid-column: 3/6;
+    grid-row: 9/12;
+    z-index: 1;
+    padding-top: 50px;
+}
+
+
+#background3{
+    grid-column: 5/8;
+    grid-row: 15/17;
+    z-index: 1;
+    padding-top: 40px;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+.river3{
+    grid-column: 2/6;
+    grid-row: 14/18;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+.river3-text{
+    grid-column: 5/8;
+    grid-row: 15/18;
+    z-index: 1;
+    padding-top: 40px;
+    padding-left: 5px;
+    
+}
+
+
+
+
+
 
 
 
