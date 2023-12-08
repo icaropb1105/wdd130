@@ -372,3 +372,126 @@ footer .social-icons img {
     margin-top: 15px;
 }
 
+
+
+
+/* About us page */
+
+#aboutus.hero3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+#aboutus.hero3 img {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    margin-top: -120px;
+    z-index: -1;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+#aboutus.hero3 h1, #aboutus.hero3 h2 {
+    color: white;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    font-family: "caveat";
+    margin-top: 90px;
+}
+#aboutus.hero3 h2{
+    grid-row: 1;
+    margin-top: 170px;
+}
+#aboutus.hero3 p:nth-of-type(1){
+    color: white;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    font-size: 20px;
+    text-align: justify;
+    justify-content: left;
+    justify-self: left;
+    font-family: "roboto";
+    margin-top: 270px;
+    z-index: 1;
+    padding-right: 200px;
+    padding-left: 50px;
+    padding-top: 25px;
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+#aboutus.hero3 p:nth-of-type(2){
+    color: white;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    font-size: 20px;
+    text-align: justify ;
+    justify-content: left;
+    justify-self: left;
+    font-family: "roboto";
+    margin-top: 500px;
+    z-index: 1;
+    padding-right: 200px;
+    padding-left: 50px;
+    padding-top: 25px;
+    margin-left: 15px;
+}
+
+
+
+
+.aboutus-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    align-items: center; /* Centraliza verticalmente os itens na grade */
+}
+.main{
+    width: 96%;
+    height: auto;
+    grid-row: 1/5;
+    grid-column: 1/5;
+    z-index: -1;
+    justify-content: center;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.section0{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-color: #e9c558;
+    margin-top: 50px;
+    border-radius: 15em;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.section0 :nth-of-type(1){
+    font-size: 40px; 
+}
+
+.section1{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border: 2px solid #0a0a0a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin-top: 35px;
+    text-align: justify;
+    background-color: rgba(253, 251, 251, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section2{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    background-color: rgba(253, 252, 252, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    text-align: justify;
+    border: 2px solid #0a0a0a;
+}
