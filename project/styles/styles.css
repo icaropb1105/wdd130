@@ -451,8 +451,8 @@ footer .social-icons img {
     grid-template-rows: auto;
     align-items: center; /* Centraliza verticalmente os itens na grade */
 }
-.main{
-    width: 96%;
+.main2{
+    width: 100%;
     height: auto;
     grid-row: 1/5;
     grid-column: 1/5;
